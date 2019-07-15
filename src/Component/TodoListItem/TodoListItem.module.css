@@ -1,0 +1,50 @@
+.TodoListItem{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: #ccc;
+    border-radius:5px;
+    text-align: center;
+    position: relative;
+    transition: background-color 0.3s ease-in;
+}
+
+.TodoListItem_completed{
+    background:#33FFAD;
+
+}
+
+
+.TodoListItem li{
+    padding: 0.5rem 0;
+}
+
+.fass{
+    height: inherit;
+    position: absolute;
+    right: 0;
+    top:0px;
+}
+
+.fass i{
+    margin:12px;
+}
+
+.fass i:first-child{
+    color:green;
+    transition: all 0.3s ease-in;
+}
+
+.fass i:first-child:hover{
+    transform: scale(1.3)
+}
+
+.fass i:nth-child(2){
+    color:red;
+    transition: all 0.3s ease-in;
+}
+
+.fass i:nth-child(2):hover{
+    transform: scale(1.3)
+
+}

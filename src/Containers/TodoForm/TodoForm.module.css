@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+.TodoForm{
+    background :#ccc;
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
+    width: 350px;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:1.5rem;
+}
+
+.TodoForm form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TodoForm input{
+    margin: 1rem;
+    padding: 0.25rem;
+    border:none;
+    border-radius:5px;
+}
